@@ -1,6 +1,6 @@
 {
-  "name": "common",
-  "version": "1.0.0",
+  "name": "@ag140505/common",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -12,5 +12,9 @@
   "type": "module",
   "dependencies": {
     "zod": "^4.3.5"
-  }
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "types": "./dist/index.d.ts"
 }
