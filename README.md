@@ -1,18 +1,44 @@
-# 📘 Medium Project — Full-Stack Blogging Website
+# 📝 Medium Project — Full-Stack Blogging Platform
 
-A full-stack blogging platform inspired by **Medium**, built with a modern tech stack including **TypeScript**, **React (frontend)**, **Node.js/Express (backend)**, and more. This project allows users to create, read, edit, and delete blog posts with authentication, user profiles, and responsive UI.
+A modern, full-stack blogging website inspired by **Medium**, built using **React**, **Cloudflare Workers**, **TypeScript**, and **PostgreSQL**.  
+The project focuses on scalability, type safety, and clean architecture with shared validation and types across frontend and backend.
 
 ---
 
 ## 🚀 Features
 
-✔️ User Authentication (Register/Login)  
-✔️ Create and Publish Blog Posts  
-✔ Edit / Delete Your Own Posts  
-✔ Responsive and Clean UI  
-✔ Full REST API for blog operations  
-✔ Modular architecture (frontend, backend, common)  
-✔ Written in **TypeScript** for scalability
+- 🔐 **Authentication & Authorization**
+  - Secure user authentication using JWT
+- ✍️ **Blog Management**
+  - Create, read, update, and delete blog posts
+- 👤 **User Profiles**
+  - View author details and their published blogs
+- 🧠 **Type Safety Across Stack**
+  - Shared validation and type inference using Zod
+- ⚡ **Serverless Backend**
+  - Fast and scalable APIs powered by Cloudflare Workers
+- 🗄️ **Database Integration**
+  - PostgreSQL with Prisma ORM and connection pooling
+- 📱 **Responsive UI**
+  - Clean and modern interface built with React
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React** — Component-based UI development
+- **TypeScript** — Strong typing and better maintainability
+- **Zod** — Schema validation with type inference from backend
+
+### Backend
+- **Cloudflare Workers** — Serverless backend environment
+- **TypeScript** — End-to-end type safety
+- **JWT (JSON Web Tokens)** — Authentication and authorization
+
+### Database & ORM
+- **PostgreSQL** — Relational database for data persistence
+- **Prisma ORM** — Type-safe database access with connection pooling
 
 ---
 
@@ -20,8 +46,8 @@ A full-stack blogging platform inspired by **Medium**, built with a modern tech 
 
 ```text
 Medium_project/
-├── backend/        # Server, APIs, database logic
-├── common/         # Shared types, utilities
-├── frontend/       # React web app
+├── backend/        # Cloudflare Workers backend (APIs, auth, DB logic)
+├── frontend/       # React frontend application
+├── common/         # Shared Zod schemas and TypeScript types
 ├── .gitignore
 └── README.md
