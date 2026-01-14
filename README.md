@@ -33,6 +33,7 @@ The project focuses on scalability, type safety, and clean architecture with sha
 
 ### Backend
 - **Cloudflare Workers** — Serverless backend environment
+- **Hono** — Lightweight and fast web framework for Workers
 - **TypeScript** — End-to-end type safety
 - **JWT (JSON Web Tokens)** — Authentication and authorization
 
