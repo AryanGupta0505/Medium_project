@@ -3,6 +3,10 @@
 A modern, full-stack blogging website inspired by **Medium**, built using **React**, **Cloudflare Workers**, **TypeScript**, and **PostgreSQL**.  
 The project focuses on scalability, type safety, and clean architecture with shared validation and types across frontend and backend.
 
+🌐 **Live Demo:**  
+👉 https://medium-project-cgxd.vercel.app/
+
+
 ---
 
 ## 🚀 Features
